@@ -1,4 +1,4 @@
-(module Local:RelayDPDT01 (layer F.Cu) (tedit 5B398F73)
+(module RelayDPDT01 (layer F.Cu) (tedit 5E108AF6)
   (fp_text reference K5 (at -6.9 -0.2 -270) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
@@ -18,4 +18,9 @@
   (pad 6 thru_hole circle (at 2.54 -2.54) (size 1.85 1.85) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 7 thru_hole circle (at 0 -2.54) (size 1.85 1.85) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 8 thru_hole circle (at -5.08 -2.54) (size 1.85 1.85) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIPRJMOD}/libs/n2adr.pretty/THT_2_formC.wrl
+    (offset (xyz 1.25 0 0))
+    (scale (xyz 1.4 1.1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

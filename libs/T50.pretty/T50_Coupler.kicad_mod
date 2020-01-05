@@ -1,4 +1,4 @@
-(module T50_Coupler (layer F.Cu) (tedit 5E0F7051)
+(module T50_Coupler (layer F.Cu) (tedit 5E108BB7)
   (descr "Transformer, Toroid, horizontal, laying, Diameter 14mm, Amidon T50,")
   (tags "Transformer Toroid horizontal laying Diameter 14mm Amidon T50 ")
   (fp_text reference REF** (at 8.1 -16.3) (layer F.SilkS)
@@ -45,5 +45,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/libs/T50.pretty/T50.wrl
+    (offset (xyz 8 5 3.5))
+    (scale (xyz 0.17 0.28 0.17))
+    (rotate (xyz 90 0 0))
   )
 )
