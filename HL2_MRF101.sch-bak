@@ -98,7 +98,7 @@ Wire Wire Line
 	12600 950  12400 950 
 Connection ~ 12600 950 
 Text Notes 12450 850  2    50   ~ 0
-3V: Bias On\n0V: Bias Off
+0V: Bias On\n3V: Bias Off
 $Comp
 L Diode:1N4148 D5
 U 1 1 5E0B97E0
@@ -861,11 +861,11 @@ F 3 "~" H 11200 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 11000 6350 0    50   Input ~ 0
-PTT
+INTTR
 Wire Wire Line
 	11000 6350 11100 6350
 Text GLabel 15600 6350 2    50   Input ~ 0
-PTT
+INTTR
 Wire Wire Line
 	15500 6350 15600 6350
 Text GLabel 9700 3700 0    50   Input ~ 0
@@ -1508,7 +1508,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 8300 6900 8600
 Text Notes 3050 9600 0    50   ~ 0
-20 dB Coupler\nFT50-61\n1 Turn #18 Teflon\n10 Turn #28 Enameled
+20 dB Coupler\nFT50A-61\n1 Turn #18 Teflon\n10 Turn #28 Enameled
 Text Notes 5200 9650 0    79   ~ 16
 Todo: check voltages/amplification
 Text GLabel 1050 1150 0    50   Input ~ 0
@@ -3789,7 +3789,7 @@ Connection ~ 5450 6050
 Wire Wire Line
 	5450 6050 5450 6700
 Text GLabel 12400 950  0    50   Input ~ 0
-BIAS_ON
+INTTR
 Text Notes 9650 2800 0    50   ~ 0
 Bands 1 to 5 (LPF) normally bypassed.\nBand 6 (LPF) normally in line.\nBand 7 (Rx HPF) normally bypassed.\nPTT active low.\nBIAS_ON active high.
 $Comp
@@ -4204,8 +4204,6 @@ F 3 "" H 9450 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9450 2400 9450 2500
-Wire Wire Line
-	8950 1700 9050 1700
 $Comp
 L Connector:TestPoint TP5
 U 1 1 62212EF5
@@ -4294,35 +4292,20 @@ F 3 "~" H 10750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP13
-U 1 1 6287BD61
+L Connector:TestPoint TP14
+U 1 1 6287BEA6
 P 10650 1300
-F 0 "TP13" V 10650 1500 50  0000 L CNN
+F 0 "TP14" V 10650 1500 50  0000 L CNN
 F 1 "P8" V 10695 1488 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10850 1300 50  0001 C CNN
 F 3 "~" H 10850 1300 50  0001 C CNN
 	1    10650 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP14
-U 1 1 6287BEA6
-P 10750 1300
-F 0 "TP14" V 10750 1500 50  0000 L CNN
-F 1 "P8" V 10795 1488 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10950 1300 50  0001 C CNN
-F 3 "~" H 10950 1300 50  0001 C CNN
-	1    10750 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9850 1600 10750 1600
+	9850 1600 10650 1600
 Wire Wire Line
-	10750 1600 10750 1300
-Wire Wire Line
-	9850 1700 10650 1700
-Wire Wire Line
-	10650 1700 10650 1300
+	10650 1600 10650 1300
 Wire Wire Line
 	9850 1800 10550 1800
 Wire Wire Line
@@ -4343,12 +4326,6 @@ Wire Wire Line
 	9850 2200 10150 2200
 Wire Wire Line
 	10150 2200 10150 1300
-Wire Wire Line
-	10750 1600 10850 1600
-Connection ~ 10750 1600
-Wire Wire Line
-	10650 1700 10850 1700
-Connection ~ 10650 1700
 Wire Wire Line
 	10550 1800 10850 1800
 Connection ~ 10550 1800
@@ -4376,59 +4353,10 @@ Text GLabel 10850 1800 2    50   Input ~ 0
 Band5
 Text GLabel 10850 1600 2    50   Input ~ 0
 Band7
-Text GLabel 10850 1700 2    50   Input ~ 0
-PTT
 Wire Wire Line
 	10550 3700 11050 3700
 Text Notes 10850 900  2    50   ~ 0
 Ground to select filter
-$Comp
-L 74xGxx:74LVC1G00 U2
-U 1 1 6359AED1
-P 7450 3300
-F 0 "U2" H 7425 3567 50  0000 C CNN
-F 1 "74LVC1G00" H 7425 3476 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7450 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7450 3300 50  0001 C CNN
-	1    7450 3300
-	1    0    0    -1  
-$EndComp
-Text GLabel 7050 3350 0    50   Input ~ 0
-INTTR
-Wire Wire Line
-	7050 3350 7150 3350
-$Comp
-L Device:R_Small R14
-U 1 1 63622B24
-P 6950 3250
-F 0 "R14" V 6754 3250 50  0000 C CNN
-F 1 "10k" V 6845 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6950 3250 50  0001 C CNN
-F 3 "~" H 6950 3250 50  0001 C CNN
-	1    6950 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7050 3250 7150 3250
-Wire Wire Line
-	6850 3250 6750 3250
-Wire Wire Line
-	6750 3250 6750 3150
-$Comp
-L power:+3.3V #PWR049
-U 1 1 63731A54
-P 6750 3150
-F 0 "#PWR049" H 6750 3000 50  0001 C CNN
-F 1 "+3.3V" H 6765 3323 50  0000 C CNN
-F 2 "" H 6750 3150 50  0001 C CNN
-F 3 "" H 6750 3150 50  0001 C CNN
-	1    6750 3150
-	1    0    0    -1  
-$EndComp
-Text GLabel 7800 3300 2    50   Input ~ 0
-BIAS_ON
-Wire Wire Line
-	7700 3300 7800 3300
 $Comp
 L power:VCC #PWR071
 U 1 1 638D6A0B
@@ -4445,10 +4373,6 @@ Wire Wire Line
 Wire Wire Line
 	9850 9100 9850 9000
 Connection ~ 9650 9100
-Text Notes 8150 3550 2    50   ~ 0
-BIAS_ON: GND on Rx, +3.3V on Tx
-Text GLabel 8950 1700 0    50   Input ~ 0
-BIAS_ON
 Wire Wire Line
 	8000 1600 9050 1600
 Wire Wire Line
@@ -5149,7 +5073,7 @@ U 1 1 5FD30EFE
 P 9450 6850
 F 0 "J7" H 9368 7067 50  0000 C CNN
 F 1 "12V" H 9368 6976 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9450 6850 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 9450 6850 50  0001 C CNN
 F 3 "~" H 9450 6850 50  0001 C CNN
 	1    9450 6850
 	-1   0    0    -1  
@@ -5175,4 +5099,9 @@ Wire Wire Line
 	10750 6500 10450 6500
 Connection ~ 10750 6800
 Connection ~ 10450 6500
+Connection ~ 10650 1600
+Wire Wire Line
+	10650 1600 10850 1600
+NoConn ~ 9850 1700
+NoConn ~ 9050 1700
 $EndSCHEMATC
