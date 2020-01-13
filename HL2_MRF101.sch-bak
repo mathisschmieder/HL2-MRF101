@@ -1024,7 +1024,7 @@ Connection ~ 10550 3700
 Wire Wire Line
 	9700 3700 9900 3700
 Connection ~ 9900 3700
-Text Notes 9900 4700 0    50   ~ 0
+Text Notes 9900 3450 0    50   ~ 0
 6 dB attenuation\nUse 2W resistors
 Wire Wire Line
 	4150 9550 4050 9550
@@ -4950,7 +4950,7 @@ Wire Wire Line
 	10650 1600 10850 1600
 NoConn ~ 9850 1700
 NoConn ~ 9050 1700
-Text Notes 7900 5000 0    50   ~ 0
+Text Notes 8100 5200 0    50   ~ 0
 10mV/°C\n55°C => 550mV\n40°C => 400mV
 Wire Wire Line
 	8100 5250 8200 5250
@@ -5085,12 +5085,12 @@ $Comp
 L Device:R_Small R?
 U 1 1 5F209BA6
 P 8650 5250
-F 0 "R?" V 8454 5250 50  0000 C CNN
-F 1 "10k" V 8545 5250 50  0000 C CNN
-F 2 "" H 8650 5250 50  0001 C CNN
+F 0 "R?" V 8850 5250 50  0000 C CNN
+F 1 "10k" V 8750 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 5250 50  0001 C CNN
 F 3 "~" H 8650 5250 50  0001 C CNN
 	1    8650 5250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8200 5250 8550 5250

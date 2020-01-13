@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name HL2-MRF101)(type Legacy)(uri ${KIPRJMOD}/libs/HL2-MRF101.lib)(options "")(descr ""))
   (lib (name n2adr)(type Legacy)(uri ${KIPRJMOD}/libs/n2adr.lib)(options "")(descr ""))
+  (lib (name HL2_MRF101-rescue)(type Legacy)(uri ${KIPRJMOD}/HL2_MRF101-rescue.lib)(options "")(descr ""))
 )
