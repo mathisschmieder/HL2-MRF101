@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:2N7002 Q2
+L HL2_MRF101-rescue:2N7002-Transistor_FET Q2
 U 1 1 5E0B23CB
 P 13300 950
 F 0 "Q2" H 13505 996 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 13400 1350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R31
+L HL2_MRF101-rescue:R_Small-Device R31
 U 1 1 5E0B6C0B
 P 13000 1150
 F 0 "R31" H 13059 1196 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 13000 1150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C60
+L HL2_MRF101-rescue:C_Small-Device C60
 U 1 1 5E0B73EA
 P 12600 1150
 F 0 "C60" H 12692 1196 50  0000 L CNN
@@ -100,7 +100,7 @@ Connection ~ 12600 950
 Text Notes 12450 850  2    50   ~ 0
 0V: Bias On\n3V: Bias Off
 $Comp
-L Diode:1N4148 D5
+L HL2_MRF101-rescue:1N4148-Diode D5
 U 1 1 5E0B97E0
 P 13550 2400
 F 0 "D5" V 13596 2321 50  0000 R CNN
@@ -111,7 +111,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Zener D4
+L HL2_MRF101-rescue:D_Zener-Device D4
 U 1 1 5E0BAEBE
 P 13550 2000
 F 0 "D4" V 13504 2079 50  0000 L CNN
@@ -126,7 +126,7 @@ Wire Wire Line
 Wire Wire Line
 	13550 1850 13550 1750
 $Comp
-L Device:C_Small C63
+L HL2_MRF101-rescue:C_Small-Device C63
 U 1 1 5E0BB957
 P 13100 2200
 F 0 "C63" H 13008 2154 50  0000 R CNN
@@ -169,7 +169,7 @@ Wire Wire Line
 Text Notes 13600 2650 0    50   ~ 0
 Thermally coupled\nto MRF-101
 $Comp
-L Device:R_POT RV1
+L HL2_MRF101-rescue:R_POT-Device RV1
 U 1 1 5E0BE095
 P 12500 2050
 F 0 "RV1" H 12430 2096 50  0000 R CNN
@@ -180,7 +180,7 @@ F 3 "~" H 12500 2050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R29
+L HL2_MRF101-rescue:R_Small-Device R29
 U 1 1 5E0BF37A
 P 12500 2400
 F 0 "R29" H 12559 2446 50  0000 L CNN
@@ -211,7 +211,7 @@ $EndComp
 Wire Wire Line
 	12500 2500 12500 2650
 $Comp
-L Device:R_Small R32
+L HL2_MRF101-rescue:R_Small-Device R32
 U 1 1 5E0C15BA
 P 14450 1750
 F 0 "R32" V 14254 1750 50  0000 C CNN
@@ -246,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	13950 650  13950 1750
 $Comp
-L Device:C_Small C56
+L HL2_MRF101-rescue:C_Small-Device C56
 U 1 1 5E0D5629
 P 11150 3700
 F 0 "C56" V 10921 3700 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "~" H 11150 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R24
+L HL2_MRF101-rescue:R_Small-Device R24
 U 1 1 5E0D5D5C
 P 11450 3700
 F 0 "R24" V 11254 3700 50  0000 C CNN
@@ -270,7 +270,7 @@ $EndComp
 Wire Wire Line
 	11250 3700 11350 3700
 $Comp
-L Device:R_Small R25
+L HL2_MRF101-rescue:R_Small-Device R25
 U 1 1 5E0D68FB
 P 11950 3500
 F 0 "R25" H 11891 3454 50  0000 R CNN
@@ -281,7 +281,7 @@ F 3 "~" H 11950 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R27
+L HL2_MRF101-rescue:R_Small-Device R27
 U 1 1 5E0D7171
 P 12150 3300
 F 0 "R27" V 12346 3300 50  0000 C CNN
@@ -292,7 +292,7 @@ F 3 "~" H 12150 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R28
+L HL2_MRF101-rescue:R_Small-Device R28
 U 1 1 5E0D77DF
 P 12450 3300
 F 0 "R28" V 12646 3300 50  0000 C CNN
@@ -303,7 +303,7 @@ F 3 "~" H 12450 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R30
+L HL2_MRF101-rescue:R_Small-Device R30
 U 1 1 5E0D7AC3
 P 12750 3300
 F 0 "R30" V 12946 3300 50  0000 C CNN
@@ -314,7 +314,7 @@ F 3 "~" H 12750 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C62
+L HL2_MRF101-rescue:C_Small-Device C62
 U 1 1 5E0D7DAC
 P 13050 3300
 F 0 "C62" V 12821 3300 50  0000 C CNN
@@ -335,7 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 3300 12950 3300
 $Comp
-L Device:Q_NMOS_GSD Q1
+L HL2_MRF101-rescue:Q_NMOS_GSD-Device Q1
 U 1 1 5E0DAA0E
 P 13250 3700
 F 0 "Q1" H 13454 3746 50  0000 L CNN
@@ -346,7 +346,7 @@ F 3 "~" H 13250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L13
+L HL2_MRF101-rescue:L_Small-Device L13
 U 1 1 5E0DEE1A
 P 12600 3700
 F 0 "L13" V 12785 3700 50  0000 C CNN
@@ -357,7 +357,7 @@ F 3 "~" H 12600 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R26
+L HL2_MRF101-rescue:R_Small-Device R26
 U 1 1 5E0DF269
 P 11950 3900
 F 0 "R26" H 12009 3946 50  0000 L CNN
@@ -426,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 3300 15000 3300
 $Comp
-L Device:C_Small C70
+L HL2_MRF101-rescue:C_Small-Device C70
 U 1 1 5E0F5BDF
 P 15200 2450
 F 0 "C70" V 14971 2450 50  0000 C CNN
@@ -437,7 +437,7 @@ F 3 "~" H 15200 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C71
+L HL2_MRF101-rescue:C_Small-Device C71
 U 1 1 5E0F6784
 P 15200 2800
 F 0 "C71" V 14971 2800 50  0000 C CNN
@@ -448,7 +448,7 @@ F 3 "~" H 15200 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C72
+L HL2_MRF101-rescue:C_Small-Device C72
 U 1 1 5E0F6DE8
 P 15200 3150
 F 0 "C72" V 14971 3150 50  0000 C CNN
@@ -496,7 +496,7 @@ Wire Wire Line
 	15400 3150 15400 3250
 Connection ~ 15400 3150
 $Comp
-L Device:C_Small C66
+L HL2_MRF101-rescue:C_Small-Device C66
 U 1 1 5E10DAA4
 P 14100 3500
 F 0 "C66" H 14008 3454 50  0000 R CNN
@@ -520,7 +520,7 @@ Connection ~ 14100 3300
 Wire Wire Line
 	14300 3500 14300 3850
 $Comp
-L Device:C_Small C75
+L HL2_MRF101-rescue:C_Small-Device C75
 U 1 1 5E11E2B0
 P 15350 3850
 F 0 "C75" V 15121 3850 50  0000 C CNN
@@ -531,7 +531,7 @@ F 3 "~" H 15350 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C76
+L HL2_MRF101-rescue:C_Small-Device C76
 U 1 1 5E11EF3D
 P 15350 4050
 F 0 "C76" V 15500 4050 50  0000 C CNN
@@ -572,7 +572,7 @@ Text Notes 11100 3900 0    50   ~ 0
 Text Notes 15800 4000 0    50   ~ 0
 100W
 $Comp
-L Device:C_Small C59
+L HL2_MRF101-rescue:C_Small-Device C59
 U 1 1 5E130497
 P 11950 4300
 F 0 "C59" H 12042 4346 50  0000 L CNN
@@ -693,7 +693,7 @@ TX_high
 Text GLabel 13000 5400 1    50   Input ~ 0
 HL2_TX
 $Comp
-L Device:C_Small C57
+L HL2_MRF101-rescue:C_Small-Device C57
 U 1 1 5E191327
 P 11400 6550
 F 0 "C57" H 11492 6596 50  0000 L CNN
@@ -722,7 +722,7 @@ $EndComp
 Wire Wire Line
 	11400 6250 12100 6250
 $Comp
-L Device:C_Small C58
+L HL2_MRF101-rescue:C_Small-Device C58
 U 1 1 5E1A0C74
 P 11800 6550
 F 0 "C58" H 11892 6596 50  0000 L CNN
@@ -766,7 +766,7 @@ Wire Wire Line
 	11800 6350 11300 6350
 Connection ~ 11800 6350
 $Comp
-L Device:C_Small C73
+L HL2_MRF101-rescue:C_Small-Device C73
 U 1 1 5E1B0D3D
 P 15200 6550
 F 0 "C73" H 15292 6596 50  0000 L CNN
@@ -795,7 +795,7 @@ $EndComp
 Wire Wire Line
 	15200 6250 14500 6250
 $Comp
-L Device:C_Small C68
+L HL2_MRF101-rescue:C_Small-Device C68
 U 1 1 5E1B0D55
 P 14800 6550
 F 0 "C68" H 14892 6596 50  0000 L CNN
@@ -839,7 +839,7 @@ Wire Wire Line
 	14800 6350 15300 6350
 Connection ~ 14800 6350
 $Comp
-L Device:Ferrite_Bead_Small FB3
+L HL2_MRF101-rescue:Ferrite_Bead_Small-Device FB3
 U 1 1 5E1BCA04
 P 15400 6350
 F 0 "FB3" V 15163 6350 50  0000 C CNN
@@ -850,7 +850,7 @@ F 3 "~" H 15400 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L HL2_MRF101-rescue:Ferrite_Bead_Small-Device FB2
 U 1 1 5E1BDA5A
 P 11200 6350
 F 0 "FB2" V 10963 6350 50  0000 C CNN
@@ -871,7 +871,7 @@ Wire Wire Line
 Text GLabel 9700 3700 0    50   Input ~ 0
 HL2_TX
 $Comp
-L Device:R_Small R18
+L HL2_MRF101-rescue:R_Small-Device R18
 U 1 1 5E1D5D8E
 P 9850 4000
 F 0 "R18" H 9792 3954 50  0000 R CNN
@@ -882,7 +882,7 @@ F 3 "~" H 9850 4000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R20
+L HL2_MRF101-rescue:R_Small-Device R20
 U 1 1 5E1D6EB4
 P 10250 3600
 F 0 "R20" V 10350 3600 50  0000 C CNN
@@ -904,7 +904,7 @@ F 3 "" H 9900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R19
+L HL2_MRF101-rescue:R_Small-Device R19
 U 1 1 5E1FA7E7
 P 9950 4000
 F 0 "R19" H 9891 3954 50  0000 R CNN
@@ -937,7 +937,7 @@ Connection ~ 9900 4200
 Wire Wire Line
 	9900 4200 9950 4200
 $Comp
-L Device:R_Small R21
+L HL2_MRF101-rescue:R_Small-Device R21
 U 1 1 5E21600C
 P 10250 3700
 F 0 "R21" V 10350 3700 50  0000 C CNN
@@ -963,7 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 3700 10350 3700
 $Comp
-L Device:R_Small R22
+L HL2_MRF101-rescue:R_Small-Device R22
 U 1 1 5E22F469
 P 10500 4000
 F 0 "R22" H 10442 3954 50  0000 R CNN
@@ -985,7 +985,7 @@ F 3 "" H 10550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R23
+L HL2_MRF101-rescue:R_Small-Device R23
 U 1 1 5E22F47D
 P 10600 4000
 F 0 "R23" H 10541 3954 50  0000 R CNN
@@ -1068,7 +1068,7 @@ Wire Wire Line
 	4550 8950 5050 8950
 Connection ~ 4550 8950
 $Comp
-L Connector:Conn_Coaxial J1
+L HL2_MRF101-rescue:Conn_Coaxial-Connector J1
 U 1 1 5E2E2730
 P 5250 8950
 F 0 "J1" H 5350 8925 50  0000 L CNN
@@ -1092,7 +1092,7 @@ $EndComp
 Wire Wire Line
 	5250 9150 5250 9250
 $Comp
-L Device:R_Small R9
+L HL2_MRF101-rescue:R_Small-Device R9
 U 1 1 5E2F6556
 P 4800 10200
 F 0 "R9" H 4859 10246 50  0000 L CNN
@@ -1103,7 +1103,7 @@ F 3 "~" H 4800 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R8
+L HL2_MRF101-rescue:R_Small-Device R8
 U 1 1 5E2F6E82
 P 4600 10200
 F 0 "R8" H 4542 10154 50  0000 R CNN
@@ -1152,7 +1152,7 @@ Wire Wire Line
 Connection ~ 4650 9700
 Connection ~ 4800 10000
 $Comp
-L Device:R_Small R7
+L HL2_MRF101-rescue:R_Small-Device R7
 U 1 1 5E3233B2
 P 4050 10200
 F 0 "R7" H 4109 10246 50  0000 L CNN
@@ -1163,7 +1163,7 @@ F 3 "~" H 4050 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R6
+L HL2_MRF101-rescue:R_Small-Device R6
 U 1 1 5E3233BC
 P 3850 10200
 F 0 "R6" H 3792 10154 50  0000 R CNN
@@ -1211,7 +1211,7 @@ Connection ~ 4050 10000
 Wire Wire Line
 	4050 10000 4050 10100
 $Comp
-L Diode:1N5711 D1
+L HL2_MRF101-rescue:1N5711-Diode D1
 U 1 1 5E353B12
 P 3600 10000
 F 0 "D1" H 3600 10216 50  0000 C CNN
@@ -1225,7 +1225,7 @@ Wire Wire Line
 	3750 10000 3850 10000
 Connection ~ 3850 10000
 $Comp
-L Device:C_Small C18
+L HL2_MRF101-rescue:C_Small-Device C18
 U 1 1 5E35F7F5
 P 3350 10200
 F 0 "C18" H 3258 10154 50  0000 R CNN
@@ -1253,7 +1253,7 @@ $EndComp
 Wire Wire Line
 	3350 10300 3350 10400
 $Comp
-L Diode:1N5711 D2
+L HL2_MRF101-rescue:1N5711-Diode D2
 U 1 1 5E374BFB
 P 5050 10000
 F 0 "D2" H 5050 9784 50  0000 C CNN
@@ -1266,7 +1266,7 @@ $EndComp
 Wire Wire Line
 	4800 10000 4900 10000
 $Comp
-L Device:C_Small C37
+L HL2_MRF101-rescue:C_Small-Device C37
 U 1 1 5E380394
 P 5300 10200
 F 0 "C37" H 5208 10154 50  0000 R CNN
@@ -1294,7 +1294,7 @@ $EndComp
 Wire Wire Line
 	5300 10300 5300 10400
 $Comp
-L Device:R_Small R10
+L HL2_MRF101-rescue:R_Small-Device R10
 U 1 1 5E396FC7
 P 5850 10000
 F 0 "R10" V 5654 10000 50  0000 C CNN
@@ -1305,7 +1305,7 @@ F 3 "~" H 5850 10000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R11
+L HL2_MRF101-rescue:R_Small-Device R11
 U 1 1 5E397ED8
 P 6050 10200
 F 0 "R11" H 5991 10154 50  0000 R CNN
@@ -1336,7 +1336,7 @@ $EndComp
 Wire Wire Line
 	6050 10300 6050 10400
 $Comp
-L Device:Opamp_Dual_Generic U1
+L HL2_MRF101-rescue:Opamp_Dual_Generic-Device U1
 U 1 1 5E3B9192
 P 6800 10100
 F 0 "U1" H 6800 10467 50  0000 C CNN
@@ -1347,7 +1347,7 @@ F 3 "~" H 6800 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U1
+L HL2_MRF101-rescue:Opamp_Dual_Generic-Device U1
 U 2 1 5E3BAB19
 P 1850 10100
 F 0 "U1" H 1850 10467 50  0000 C CNN
@@ -1358,7 +1358,7 @@ F 3 "~" H 1850 10100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U1
+L HL2_MRF101-rescue:Opamp_Dual_Generic-Device U1
 U 3 1 5E3BC619
 P 7250 8700
 F 0 "U1" H 7208 8746 50  0000 L CNN
@@ -1380,7 +1380,7 @@ Wire Wire Line
 	6050 10000 6500 10000
 Connection ~ 6050 10000
 $Comp
-L Device:R_Small R15
+L HL2_MRF101-rescue:R_Small-Device R15
 U 1 1 5E3D4692
 P 7400 10100
 F 0 "R15" V 7204 10100 50  0000 C CNN
@@ -1396,7 +1396,7 @@ Connection ~ 7200 10100
 Text GLabel 7700 10100 2    50   Input ~ 0
 RFL_DET
 $Comp
-L Device:R_Small R5
+L HL2_MRF101-rescue:R_Small-Device R5
 U 1 1 5E3ECAE3
 P 2800 10000
 F 0 "R5" V 2604 10000 50  0000 C CNN
@@ -1407,7 +1407,7 @@ F 3 "~" H 2800 10000 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Small R4
+L HL2_MRF101-rescue:R_Small-Device R4
 U 1 1 5E3ECAED
 P 2600 10200
 F 0 "R4" H 2541 10154 50  0000 R CNN
@@ -1482,7 +1482,7 @@ F 3 "" H 6900 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C47
+L HL2_MRF101-rescue:C_Small-Device C47
 U 1 1 5E44BD10
 P 6900 8700
 F 0 "C47" H 6808 8654 50  0000 R CNN
@@ -1512,7 +1512,7 @@ Text Notes 3050 9600 0    50   ~ 0
 Text GLabel 1050 1150 0    50   Input ~ 0
 Filter_In
 $Comp
-L Device:C_Small C69
+L HL2_MRF101-rescue:C_Small-Device C69
 U 1 1 5E606FB2
 P 14800 7550
 F 0 "C69" V 14571 7550 50  0000 C CNN
@@ -1523,7 +1523,7 @@ F 3 "~" H 14800 7550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L_Small L15
+L HL2_MRF101-rescue:L_Small-Device L15
 U 1 1 5E607CBC
 P 15000 7750
 F 0 "L15" H 15048 7796 50  0000 L CNN
@@ -1538,7 +1538,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 7550 15000 7650
 $Comp
-L Device:C_Small C74
+L HL2_MRF101-rescue:C_Small-Device C74
 U 1 1 5E61974D
 P 15200 7550
 F 0 "C74" V 14971 7550 50  0000 C CNN
@@ -1552,7 +1552,7 @@ Wire Wire Line
 	15000 7550 15100 7550
 Connection ~ 15000 7550
 $Comp
-L Device:L_Small L16
+L HL2_MRF101-rescue:L_Small-Device L16
 U 1 1 5E62A862
 P 15400 7750
 F 0 "L16" H 15448 7796 50  0000 L CNN
@@ -1563,7 +1563,7 @@ F 3 "~" H 15400 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C77
+L HL2_MRF101-rescue:C_Small-Device C77
 U 1 1 5E62B2B0
 P 15600 7550
 F 0 "C77" V 15371 7550 50  0000 C CNN
@@ -1662,7 +1662,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1600 1350 1600
 $Comp
-L Device:C_Small C1
+L HL2_MRF101-rescue:C_Small-Device C1
 U 1 1 5E847698
 P 1350 1700
 F 0 "C1" H 1258 1654 50  0000 R CNN
@@ -1691,7 +1691,7 @@ $EndComp
 Wire Wire Line
 	1350 1800 1350 1900
 $Comp
-L Device:L_Small L1
+L HL2_MRF101-rescue:L_Small-Device L1
 U 1 1 5E879EAF
 P 3150 1000
 F 0 "L1" V 3335 1000 50  0000 C CNN
@@ -1702,7 +1702,7 @@ F 3 "~" H 3150 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C12
+L HL2_MRF101-rescue:C_Small-Device C12
 U 1 1 5E87B6AC
 P 3150 1100
 F 0 "C12" V 3400 1100 50  0000 C CNN
@@ -1725,7 +1725,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 1000 3250 1000
 $Comp
-L Device:C_Small C6
+L HL2_MRF101-rescue:C_Small-Device C6
 U 1 1 5E8FBD80
 P 2850 1450
 F 0 "C6" H 2758 1404 50  0000 R CNN
@@ -1736,7 +1736,7 @@ F 3 "~" H 2850 1450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C19
+L HL2_MRF101-rescue:C_Small-Device C19
 U 1 1 5E93080A
 P 3450 1450
 F 0 "C19" H 3358 1404 50  0000 R CNN
@@ -1754,7 +1754,7 @@ Connection ~ 3350 1100
 Wire Wire Line
 	2850 1100 2850 1350
 $Comp
-L Device:L_Small L7
+L HL2_MRF101-rescue:L_Small-Device L7
 U 1 1 5E9651E8
 P 3750 1000
 F 0 "L7" V 3935 1000 50  0000 C CNN
@@ -1765,7 +1765,7 @@ F 3 "~" H 3750 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C25
+L HL2_MRF101-rescue:C_Small-Device C25
 U 1 1 5E9651F2
 P 3750 1100
 F 0 "C25" V 4000 1100 50  0000 C CNN
@@ -1792,7 +1792,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1100 3850 1100
 $Comp
-L Device:C_Small C31
+L HL2_MRF101-rescue:C_Small-Device C31
 U 1 1 5E9D2DC4
 P 4050 1450
 F 0 "C31" H 3958 1404 50  0000 R CNN
@@ -1878,7 +1878,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 1600 5550 1600
 $Comp
-L Device:C_Small C38
+L HL2_MRF101-rescue:C_Small-Device C38
 U 1 1 5EBBF3B9
 P 5550 1700
 F 0 "C38" H 5458 1654 50  0000 R CNN
@@ -1962,7 +1962,7 @@ Connection ~ 1550 2300
 Wire Wire Line
 	1650 2900 1350 2900
 $Comp
-L Device:C_Small C2
+L HL2_MRF101-rescue:C_Small-Device C2
 U 1 1 5ED08E93
 P 1350 3000
 F 0 "C2" H 1258 2954 50  0000 R CNN
@@ -1991,7 +1991,7 @@ $EndComp
 Wire Wire Line
 	1350 3100 1350 3200
 $Comp
-L Device:L_Small L2
+L HL2_MRF101-rescue:L_Small-Device L2
 U 1 1 5ED08EAB
 P 3150 2300
 F 0 "L2" V 3335 2300 50  0000 C CNN
@@ -2002,7 +2002,7 @@ F 3 "~" H 3150 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C13
+L HL2_MRF101-rescue:C_Small-Device C13
 U 1 1 5ED08EB5
 P 3150 2400
 F 0 "C13" V 3400 2400 50  0000 C CNN
@@ -2025,7 +2025,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2300 3250 2300
 $Comp
-L Device:C_Small C7
+L HL2_MRF101-rescue:C_Small-Device C7
 U 1 1 5ED08EC5
 P 2850 2750
 F 0 "C7" H 2758 2704 50  0000 R CNN
@@ -2036,7 +2036,7 @@ F 3 "~" H 2850 2750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C20
+L HL2_MRF101-rescue:C_Small-Device C20
 U 1 1 5ED08ECF
 P 3450 2750
 F 0 "C20" H 3358 2704 50  0000 R CNN
@@ -2054,7 +2054,7 @@ Connection ~ 3350 2400
 Wire Wire Line
 	2850 2400 2850 2650
 $Comp
-L Device:L_Small L8
+L HL2_MRF101-rescue:L_Small-Device L8
 U 1 1 5ED08EDD
 P 3750 2300
 F 0 "L8" V 3935 2300 50  0000 C CNN
@@ -2065,7 +2065,7 @@ F 3 "~" H 3750 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C26
+L HL2_MRF101-rescue:C_Small-Device C26
 U 1 1 5ED08EE7
 P 3750 2400
 F 0 "C26" V 4000 2400 50  0000 C CNN
@@ -2092,7 +2092,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2400 3850 2400
 $Comp
-L Device:C_Small C32
+L HL2_MRF101-rescue:C_Small-Device C32
 U 1 1 5ED08EFA
 P 4050 2750
 F 0 "C32" H 3958 2704 50  0000 R CNN
@@ -2179,7 +2179,7 @@ Connection ~ 5350 2300
 Wire Wire Line
 	5250 2900 5550 2900
 $Comp
-L Device:C_Small C39
+L HL2_MRF101-rescue:C_Small-Device C39
 U 1 1 5ED08F3D
 P 5550 3000
 F 0 "C39" H 5458 2954 50  0000 R CNN
@@ -2275,7 +2275,7 @@ Connection ~ 1550 3600
 Wire Wire Line
 	1650 4200 1350 4200
 $Comp
-L Device:C_Small C3
+L HL2_MRF101-rescue:C_Small-Device C3
 U 1 1 5EE07E6C
 P 1350 4300
 F 0 "C3" H 1258 4254 50  0000 R CNN
@@ -2304,7 +2304,7 @@ $EndComp
 Wire Wire Line
 	1350 4400 1350 4500
 $Comp
-L Device:L_Small L3
+L HL2_MRF101-rescue:L_Small-Device L3
 U 1 1 5EE07E84
 P 3150 3600
 F 0 "L3" V 3335 3600 50  0000 C CNN
@@ -2315,7 +2315,7 @@ F 3 "~" H 3150 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C14
+L HL2_MRF101-rescue:C_Small-Device C14
 U 1 1 5EE07E8E
 P 3150 3700
 F 0 "C14" V 3400 3700 50  0000 C CNN
@@ -2338,7 +2338,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3600 3250 3600
 $Comp
-L Device:C_Small C8
+L HL2_MRF101-rescue:C_Small-Device C8
 U 1 1 5EE07E9E
 P 2850 4050
 F 0 "C8" H 2758 4004 50  0000 R CNN
@@ -2349,7 +2349,7 @@ F 3 "~" H 2850 4050 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C21
+L HL2_MRF101-rescue:C_Small-Device C21
 U 1 1 5EE07EA8
 P 3450 4050
 F 0 "C21" H 3358 4004 50  0000 R CNN
@@ -2367,7 +2367,7 @@ Connection ~ 3350 3700
 Wire Wire Line
 	2850 3700 2850 3950
 $Comp
-L Device:L_Small L9
+L HL2_MRF101-rescue:L_Small-Device L9
 U 1 1 5EE07EB6
 P 3750 3600
 F 0 "L9" V 3935 3600 50  0000 C CNN
@@ -2378,7 +2378,7 @@ F 3 "~" H 3750 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C27
+L HL2_MRF101-rescue:C_Small-Device C27
 U 1 1 5EE07EC0
 P 3750 3700
 F 0 "C27" V 4000 3700 50  0000 C CNN
@@ -2405,7 +2405,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3700 3850 3700
 $Comp
-L Device:C_Small C33
+L HL2_MRF101-rescue:C_Small-Device C33
 U 1 1 5EE07ED3
 P 4050 4050
 F 0 "C33" H 3958 4004 50  0000 R CNN
@@ -2492,7 +2492,7 @@ Connection ~ 5350 3600
 Wire Wire Line
 	5250 4200 5550 4200
 $Comp
-L Device:C_Small C40
+L HL2_MRF101-rescue:C_Small-Device C40
 U 1 1 5EE07F16
 P 5550 4300
 F 0 "C40" H 5458 4254 50  0000 R CNN
@@ -2592,7 +2592,7 @@ Connection ~ 1550 4900
 Wire Wire Line
 	1650 5500 1350 5500
 $Comp
-L Device:C_Small C4
+L HL2_MRF101-rescue:C_Small-Device C4
 U 1 1 5EF35B4C
 P 1350 5600
 F 0 "C4" H 1258 5554 50  0000 R CNN
@@ -2621,7 +2621,7 @@ $EndComp
 Wire Wire Line
 	1350 5700 1350 5800
 $Comp
-L Device:L_Small L4
+L HL2_MRF101-rescue:L_Small-Device L4
 U 1 1 5EF35B64
 P 3150 4900
 F 0 "L4" V 3335 4900 50  0000 C CNN
@@ -2632,7 +2632,7 @@ F 3 "~" H 3150 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C15
+L HL2_MRF101-rescue:C_Small-Device C15
 U 1 1 5EF35B6E
 P 3150 5000
 F 0 "C15" V 3400 5000 50  0000 C CNN
@@ -2655,7 +2655,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 4900 3250 4900
 $Comp
-L Device:C_Small C9
+L HL2_MRF101-rescue:C_Small-Device C9
 U 1 1 5EF35B7E
 P 2850 5350
 F 0 "C9" H 2758 5304 50  0000 R CNN
@@ -2666,7 +2666,7 @@ F 3 "~" H 2850 5350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C22
+L HL2_MRF101-rescue:C_Small-Device C22
 U 1 1 5EF35B88
 P 3450 5350
 F 0 "C22" H 3358 5304 50  0000 R CNN
@@ -2684,7 +2684,7 @@ Connection ~ 3350 5000
 Wire Wire Line
 	2850 5000 2850 5250
 $Comp
-L Device:L_Small L10
+L HL2_MRF101-rescue:L_Small-Device L10
 U 1 1 5EF35B96
 P 3750 4900
 F 0 "L10" V 3935 4900 50  0000 C CNN
@@ -2695,7 +2695,7 @@ F 3 "~" H 3750 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C28
+L HL2_MRF101-rescue:C_Small-Device C28
 U 1 1 5EF35BA0
 P 3750 5000
 F 0 "C28" V 4000 5000 50  0000 C CNN
@@ -2722,7 +2722,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 5000 3850 5000
 $Comp
-L Device:C_Small C34
+L HL2_MRF101-rescue:C_Small-Device C34
 U 1 1 5EF35BB3
 P 4050 5350
 F 0 "C34" H 3958 5304 50  0000 R CNN
@@ -2809,7 +2809,7 @@ Connection ~ 5350 4900
 Wire Wire Line
 	5250 5500 5550 5500
 $Comp
-L Device:C_Small C41
+L HL2_MRF101-rescue:C_Small-Device C41
 U 1 1 5EF35BF7
 P 5550 5600
 F 0 "C41" H 5458 5554 50  0000 R CNN
@@ -2891,7 +2891,7 @@ Connection ~ 1550 6200
 Wire Wire Line
 	1650 6800 1350 6800
 $Comp
-L Device:C_Small C5
+L HL2_MRF101-rescue:C_Small-Device C5
 U 1 1 5EF35C31
 P 1350 6900
 F 0 "C5" H 1258 6854 50  0000 R CNN
@@ -2920,7 +2920,7 @@ $EndComp
 Wire Wire Line
 	1350 7000 1350 7100
 $Comp
-L Device:L_Small L5
+L HL2_MRF101-rescue:L_Small-Device L5
 U 1 1 5EF35C49
 P 3150 6200
 F 0 "L5" V 3335 6200 50  0000 C CNN
@@ -2931,7 +2931,7 @@ F 3 "~" H 3150 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C16
+L HL2_MRF101-rescue:C_Small-Device C16
 U 1 1 5EF35C53
 P 3150 6300
 F 0 "C16" V 3400 6300 50  0000 C CNN
@@ -2954,7 +2954,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 6200 3250 6200
 $Comp
-L Device:C_Small C10
+L HL2_MRF101-rescue:C_Small-Device C10
 U 1 1 5EF35C63
 P 2850 6650
 F 0 "C10" H 2800 6550 50  0000 R CNN
@@ -2965,7 +2965,7 @@ F 3 "~" H 2850 6650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C23
+L HL2_MRF101-rescue:C_Small-Device C23
 U 1 1 5EF35C6D
 P 3450 6650
 F 0 "C23" H 3358 6604 50  0000 R CNN
@@ -2983,7 +2983,7 @@ Connection ~ 3350 6300
 Wire Wire Line
 	2850 6300 2850 6550
 $Comp
-L Device:L_Small L11
+L HL2_MRF101-rescue:L_Small-Device L11
 U 1 1 5EF35C7B
 P 3750 6200
 F 0 "L11" V 3935 6200 50  0000 C CNN
@@ -2994,7 +2994,7 @@ F 3 "~" H 3750 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C29
+L HL2_MRF101-rescue:C_Small-Device C29
 U 1 1 5EF35C85
 P 3750 6300
 F 0 "C29" V 4000 6300 50  0000 C CNN
@@ -3021,7 +3021,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 6300 3850 6300
 $Comp
-L Device:C_Small C35
+L HL2_MRF101-rescue:C_Small-Device C35
 U 1 1 5EF35C98
 P 4050 6650
 F 0 "C35" H 3958 6604 50  0000 R CNN
@@ -3108,7 +3108,7 @@ Connection ~ 5350 6200
 Wire Wire Line
 	5250 6800 5550 6800
 $Comp
-L Device:C_Small C42
+L HL2_MRF101-rescue:C_Small-Device C42
 U 1 1 5EF35CDB
 P 5550 6900
 F 0 "C42" H 5458 6854 50  0000 R CNN
@@ -3170,7 +3170,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 6100 2550 6100
 $Comp
-L Device:L_Small L6
+L HL2_MRF101-rescue:L_Small-Device L6
 U 1 1 5EF35D37
 P 3150 7500
 F 0 "L6" V 3335 7500 50  0000 C CNN
@@ -3181,7 +3181,7 @@ F 3 "~" H 3150 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C17
+L HL2_MRF101-rescue:C_Small-Device C17
 U 1 1 5EF35D41
 P 3150 7600
 F 0 "C17" V 3400 7600 50  0000 C CNN
@@ -3204,7 +3204,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 7500 3250 7500
 $Comp
-L Device:C_Small C11
+L HL2_MRF101-rescue:C_Small-Device C11
 U 1 1 5EF35D51
 P 2850 7950
 F 0 "C11" H 2758 7904 50  0000 R CNN
@@ -3215,7 +3215,7 @@ F 3 "~" H 2850 7950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C24
+L HL2_MRF101-rescue:C_Small-Device C24
 U 1 1 5EF35D5B
 P 3450 7950
 F 0 "C24" H 3358 7904 50  0000 R CNN
@@ -3233,7 +3233,7 @@ Connection ~ 3350 7600
 Wire Wire Line
 	2850 7600 2850 7850
 $Comp
-L Device:L_Small L12
+L HL2_MRF101-rescue:L_Small-Device L12
 U 1 1 5EF35D69
 P 3750 7500
 F 0 "L12" V 3935 7500 50  0000 C CNN
@@ -3244,7 +3244,7 @@ F 3 "~" H 3750 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C30
+L HL2_MRF101-rescue:C_Small-Device C30
 U 1 1 5EF35D73
 P 3750 7600
 F 0 "C30" V 4000 7600 50  0000 C CNN
@@ -3271,7 +3271,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 7600 3850 7600
 $Comp
-L Device:C_Small C36
+L HL2_MRF101-rescue:C_Small-Device C36
 U 1 1 5EF35D86
 P 4050 7950
 F 0 "C36" H 3958 7904 50  0000 R CNN
@@ -3388,7 +3388,7 @@ Wire Wire Line
 Wire Wire Line
 	15800 7550 15700 7550
 $Comp
-L Device:C_Small C64
+L HL2_MRF101-rescue:C_Small-Device C64
 U 1 1 5FC036FE
 P 13400 7950
 F 0 "C64" H 13308 7904 50  0000 R CNN
@@ -3416,7 +3416,7 @@ F 3 "" H 13600 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C65
+L HL2_MRF101-rescue:C_Small-Device C65
 U 1 1 5FDE1E7B
 P 13600 7950
 F 0 "C65" H 13508 7904 50  0000 R CNN
@@ -3495,7 +3495,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 7050 14500 7050
 $Comp
-L Device:C_Small C44
+L HL2_MRF101-rescue:C_Small-Device C44
 U 1 1 6032F23D
 P 6300 6900
 F 0 "C44" H 6208 6854 50  0000 R CNN
@@ -3519,7 +3519,7 @@ $EndComp
 Wire Wire Line
 	6300 7000 6300 7100
 $Comp
-L Device:C_Small C46
+L HL2_MRF101-rescue:C_Small-Device C46
 U 1 1 60390C67
 P 6700 6900
 F 0 "C46" H 6608 6854 50  0000 R CNN
@@ -3543,7 +3543,7 @@ $EndComp
 Wire Wire Line
 	6700 7000 6700 7100
 $Comp
-L Device:C_Small C49
+L HL2_MRF101-rescue:C_Small-Device C49
 U 1 1 603F24CD
 P 7100 6900
 F 0 "C49" H 7008 6854 50  0000 R CNN
@@ -3567,7 +3567,7 @@ $EndComp
 Wire Wire Line
 	7100 7000 7100 7100
 $Comp
-L Device:C_Small C51
+L HL2_MRF101-rescue:C_Small-Device C51
 U 1 1 603F24E2
 P 7500 6900
 F 0 "C51" H 7408 6854 50  0000 R CNN
@@ -3591,7 +3591,7 @@ $EndComp
 Wire Wire Line
 	7500 7000 7500 7100
 $Comp
-L Device:C_Small C53
+L HL2_MRF101-rescue:C_Small-Device C53
 U 1 1 604570B9
 P 7900 6900
 F 0 "C53" H 7808 6854 50  0000 R CNN
@@ -3640,7 +3640,7 @@ Wire Wire Line
 Connection ~ 5450 6700
 Connection ~ 6300 6700
 $Comp
-L Device:C_Small C43
+L HL2_MRF101-rescue:C_Small-Device C43
 U 1 1 607144FB
 P 6300 6250
 F 0 "C43" H 6208 6204 50  0000 R CNN
@@ -3664,7 +3664,7 @@ $EndComp
 Wire Wire Line
 	6300 6350 6300 6450
 $Comp
-L Device:C_Small C45
+L HL2_MRF101-rescue:C_Small-Device C45
 U 1 1 60714510
 P 6700 6250
 F 0 "C45" H 6608 6204 50  0000 R CNN
@@ -3688,7 +3688,7 @@ $EndComp
 Wire Wire Line
 	6700 6350 6700 6450
 $Comp
-L Device:C_Small C48
+L HL2_MRF101-rescue:C_Small-Device C48
 U 1 1 60714525
 P 7100 6250
 F 0 "C48" H 7008 6204 50  0000 R CNN
@@ -3712,7 +3712,7 @@ $EndComp
 Wire Wire Line
 	7100 6350 7100 6450
 $Comp
-L Device:C_Small C50
+L HL2_MRF101-rescue:C_Small-Device C50
 U 1 1 6071453A
 P 7500 6250
 F 0 "C50" H 7408 6204 50  0000 R CNN
@@ -3736,7 +3736,7 @@ $EndComp
 Wire Wire Line
 	7500 6350 7500 6450
 $Comp
-L Device:C_Small C52
+L HL2_MRF101-rescue:C_Small-Device C52
 U 1 1 6071454F
 P 7900 6250
 F 0 "C52" H 7808 6204 50  0000 R CNN
@@ -3791,7 +3791,7 @@ INTTR
 Text Notes 9650 2800 0    50   ~ 0
 Bands 1 to 5 (LPF) normally bypassed.\nBand 6 (LPF) normally in line.\nBand 7 (Rx HPF) normally bypassed.\nPTT active low.\nBIAS_ON active high.
 $Comp
-L Connector_Generic:Conn_01x20 J2
+L HL2_MRF101-rescue:Conn_01x20-Connector_Generic J2
 U 1 1 6078EF7F
 P 8350 9900
 F 0 "J2" H 8268 8675 50  0000 C CNN
@@ -3861,7 +3861,7 @@ HL2_RF
 Wire Wire Line
 	8550 10700 8750 10700
 $Comp
-L Connector:Conn_Coaxial J4
+L HL2_MRF101-rescue:Conn_Coaxial-Connector J4
 U 1 1 60CA29C8
 P 9750 9900
 F 0 "J4" H 9850 9875 50  0000 L CNN
@@ -3897,7 +3897,7 @@ Wire Wire Line
 Text GLabel 8650 9400 2    50   Input ~ 0
 EXTTR
 $Comp
-L Connector:TestPoint TP6
+L HL2_MRF101-rescue:TestPoint-Connector TP6
 U 1 1 60ED725B
 P 8800 9500
 F 0 "TP6" V 8800 9688 50  0000 L CNN
@@ -3910,7 +3910,7 @@ $EndComp
 Wire Wire Line
 	8550 9500 8800 9500
 $Comp
-L Connector:TestPoint TP7
+L HL2_MRF101-rescue:TestPoint-Connector TP7
 U 1 1 60FB91E8
 P 10050 9700
 F 0 "TP7" H 9992 9726 50  0000 R CNN
@@ -3928,7 +3928,7 @@ Connection ~ 10050 9600
 Text GLabel 10150 9600 2    50   Input ~ 0
 INTTR
 $Comp
-L Device:D_Small D3
+L HL2_MRF101-rescue:D_Small-Device D3
 U 1 1 6109F7DE
 P 10050 9400
 F 0 "D3" V 10004 9468 50  0000 L CNN
@@ -3960,7 +3960,7 @@ RFL_DET
 Wire Wire Line
 	8650 8900 8550 8900
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L HL2_MRF101-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 6126D5A4
 P 9450 9100
 F 0 "FB1" V 9700 9100 50  0000 C CNN
@@ -3988,7 +3988,7 @@ $EndComp
 Wire Wire Line
 	10050 9000 10050 9300
 $Comp
-L Device:C_Small C54
+L HL2_MRF101-rescue:C_Small-Device C54
 U 1 1 613CA838
 P 8400 7950
 F 0 "C54" H 8308 7904 50  0000 R CNN
@@ -4012,7 +4012,7 @@ $EndComp
 Wire Wire Line
 	8400 8050 8400 8150
 $Comp
-L Device:C_Small C55
+L HL2_MRF101-rescue:C_Small-Device C55
 U 1 1 613CA84D
 P 8800 7950
 F 0 "C55" H 8708 7904 50  0000 R CNN
@@ -4164,7 +4164,7 @@ $EndComp
 Wire Wire Line
 	8100 1250 8100 1400
 $Comp
-L Connector:TestPoint TP4
+L HL2_MRF101-rescue:TestPoint-Connector TP4
 U 1 1 61D36C9F
 P 8300 1250
 F 0 "TP4" H 8358 1322 50  0000 L CNN
@@ -4179,7 +4179,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 1500 8300 1250
 $Comp
-L Transistor_Array:ULN2003 U4
+L HL2_MRF101-rescue:ULN2003-Transistor_Array U4
 U 1 1 61DB578D
 P 9450 1800
 F 0 "U4" H 9450 2467 50  0000 C CNN
@@ -4203,7 +4203,7 @@ $EndComp
 Wire Wire Line
 	9450 2400 9450 2500
 $Comp
-L Connector:TestPoint TP5
+L HL2_MRF101-rescue:TestPoint-Connector TP5
 U 1 1 62212EF5
 P 8550 1250
 F 0 "TP5" H 8608 1322 50  0000 L CNN
@@ -4235,7 +4235,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 2200 6900 2500
 $Comp
-L Connector:TestPoint TP8
+L HL2_MRF101-rescue:TestPoint-Connector TP8
 U 1 1 6287ADA7
 P 10150 1300
 F 0 "TP8" V 10150 1500 50  0000 L CNN
@@ -4246,7 +4246,7 @@ F 3 "~" H 10350 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L HL2_MRF101-rescue:TestPoint-Connector TP9
 U 1 1 6287B7C5
 P 10250 1300
 F 0 "TP9" V 10250 1500 50  0000 L CNN
@@ -4257,7 +4257,7 @@ F 3 "~" H 10450 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L HL2_MRF101-rescue:TestPoint-Connector TP10
 U 1 1 6287B90A
 P 10350 1300
 F 0 "TP10" V 10350 1500 50  0000 L CNN
@@ -4268,7 +4268,7 @@ F 3 "~" H 10550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L HL2_MRF101-rescue:TestPoint-Connector TP11
 U 1 1 6287BA58
 P 10450 1300
 F 0 "TP11" V 10450 1500 50  0000 L CNN
@@ -4279,7 +4279,7 @@ F 3 "~" H 10650 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L HL2_MRF101-rescue:TestPoint-Connector TP12
 U 1 1 6287BBF2
 P 10550 1300
 F 0 "TP12" V 10550 1500 50  0000 L CNN
@@ -4290,7 +4290,7 @@ F 3 "~" H 10750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L HL2_MRF101-rescue:TestPoint-Connector TP14
 U 1 1 6287BEA6
 P 10650 1300
 F 0 "TP14" V 10650 1500 50  0000 L CNN
@@ -4386,7 +4386,7 @@ Wire Wire Line
 Text Notes 9650 3600 2    50   ~ 0
 5W max
 $Comp
-L Device:R_Small R1
+L HL2_MRF101-rescue:R_Small-Device R1
 U 1 1 5E216A35
 P 1250 10100
 F 0 "R1" V 1054 10100 50  0000 C CNN
@@ -4399,7 +4399,7 @@ $EndComp
 Wire Wire Line
 	950  10100 1050 10100
 $Comp
-L Connector:TestPoint TP1
+L HL2_MRF101-rescue:TestPoint-Connector TP1
 U 1 1 5E32F97A
 P 1050 10000
 F 0 "TP1" V 1050 10200 50  0000 L CNN
@@ -4415,7 +4415,7 @@ Connection ~ 1050 10100
 Wire Wire Line
 	1050 10100 1150 10100
 $Comp
-L Connector:TestPoint TP3
+L HL2_MRF101-rescue:TestPoint-Connector TP3
 U 1 1 5E3BD181
 P 7600 10000
 F 0 "TP3" V 7600 10200 50  0000 L CNN
@@ -4433,7 +4433,7 @@ Connection ~ 7600 10100
 Wire Wire Line
 	7600 10100 7700 10100
 $Comp
-L Device:R_Small R16
+L HL2_MRF101-rescue:R_Small-Device R16
 U 1 1 5E716968
 P 8750 8900
 F 0 "R16" V 8700 8750 50  0000 C CNN
@@ -4444,7 +4444,7 @@ F 3 "~" H 8750 8900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Small R17
+L HL2_MRF101-rescue:R_Small-Device R17
 U 1 1 5E71757C
 P 8750 9000
 F 0 "R17" V 8800 8850 50  0000 C CNN
@@ -4463,7 +4463,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 9000 9050 9000
 $Comp
-L Connector:Conn_Coaxial J3
+L HL2_MRF101-rescue:Conn_Coaxial-Connector J3
 U 1 1 5ECA38D8
 P 9350 10300
 F 0 "J3" H 9450 10275 50  0000 L CNN
@@ -4504,7 +4504,7 @@ F 3 "" H 6300 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L HL2_MRF101-rescue:TestPoint-Connector TP2
 U 1 1 5E18EE13
 P 6300 8950
 F 0 "TP2" V 6250 9150 50  0000 L CNN
@@ -4539,7 +4539,7 @@ F 3 "" H 3450 10450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:CP_Small C67
+L HL2_MRF101-rescue:CP_Small-Device C67
 U 1 1 5E475D64
 P 14800 2450
 F 0 "C67" H 14888 2496 50  0000 L CNN
@@ -4550,7 +4550,7 @@ F 3 "~" H 14800 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R13
+L HL2_MRF101-rescue:R_Small-Device R13
 U 1 1 5E552F47
 P 6850 10400
 F 0 "R13" V 6750 10400 50  0000 C CNN
@@ -4565,7 +4565,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 10400 6750 10400
 $Comp
-L Device:R_Small R12
+L HL2_MRF101-rescue:R_Small-Device R12
 U 1 1 5E6FFD67
 P 6400 10600
 F 0 "R12" H 6459 10646 50  0000 L CNN
@@ -4596,7 +4596,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 10400 1450 10100
 $Comp
-L Device:R_Small R2
+L HL2_MRF101-rescue:R_Small-Device R2
 U 1 1 5E820E76
 P 1800 10400
 F 0 "R2" V 1700 10400 50  0000 C CNN
@@ -4611,7 +4611,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 10400 1900 10400
 $Comp
-L Device:R_Small R3
+L HL2_MRF101-rescue:R_Small-Device R3
 U 1 1 5E820E82
 P 2250 10600
 F 0 "R3" H 2191 10646 50  0000 R CNN
@@ -4660,7 +4660,7 @@ Wire Wire Line
 Wire Wire Line
 	15700 1750 15450 1750
 $Comp
-L Device:L_Small L14
+L HL2_MRF101-rescue:L_Small-Device L14
 U 1 1 63DACD97
 P 15350 1750
 F 0 "L14" V 15535 1750 50  0000 C CNN
@@ -4671,7 +4671,7 @@ F 3 "~" H 15350 1750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L HL2_MRF101-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 63DAB1DA
 P 15900 1750
 F 0 "J6" H 15818 1967 50  0000 C CNN
@@ -4687,7 +4687,7 @@ Wire Wire Line
 	15000 1750 15250 1750
 Connection ~ 15000 1750
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L HL2_MRF101-rescue:Conn_01x02-Connector_Generic J8
 U 1 1 5FD2E4BE
 P 11250 4950
 F 0 "J8" H 11330 4942 50  0000 L CNN
@@ -4746,7 +4746,7 @@ F 3 "" H 8200 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R33
+L HL2_MRF101-rescue:R_Small-Device R33
 U 1 1 5EAFD775
 P 8200 5450
 F 0 "R33" H 8259 5496 50  0000 L CNN
@@ -4757,7 +4757,7 @@ F 3 "~" H 8200 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C61
+L HL2_MRF101-rescue:C_Small-Device C61
 U 1 1 602E1880
 P 8200 5750
 F 0 "C61" H 8292 5796 50  0000 L CNN
@@ -4770,7 +4770,7 @@ $EndComp
 Wire Wire Line
 	8200 5850 8200 5950
 $Comp
-L Device:R_Small R34
+L HL2_MRF101-rescue:R_Small-Device R34
 U 1 1 604111C4
 P 9050 5050
 F 0 "R34" H 9109 5096 50  0000 L CNN
@@ -4783,7 +4783,7 @@ $EndComp
 Wire Wire Line
 	9050 4850 9050 4950
 $Comp
-L Device:C_Small C78
+L HL2_MRF101-rescue:C_Small-Device C78
 U 1 1 6053FBD4
 P 9250 5750
 F 0 "C78" H 9342 5796 50  0000 L CNN
@@ -4809,7 +4809,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 5450 9250 5650
 $Comp
-L Device:R_Small R35
+L HL2_MRF101-rescue:R_Small-Device R35
 U 1 1 60835631
 P 9750 4850
 F 0 "R35" V 9554 4850 50  0000 C CNN
@@ -4820,7 +4820,7 @@ F 3 "~" H 9750 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C79
+L HL2_MRF101-rescue:C_Small-Device C79
 U 1 1 60A049A8
 P 9550 6850
 F 0 "C79" H 9642 6896 50  0000 L CNN
@@ -4831,7 +4831,7 @@ F 3 "~" H 9550 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R36
+L HL2_MRF101-rescue:R_Small-Device R36
 U 1 1 60B3A0CC
 P 10350 5350
 F 0 "R36" V 10154 5350 50  0000 C CNN
@@ -4842,7 +4842,7 @@ F 3 "~" H 10350 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R37
+L HL2_MRF101-rescue:R_Small-Device R37
 U 1 1 60B3A7B9
 P 10550 5550
 F 0 "R37" H 10491 5504 50  0000 R CNN
@@ -4857,7 +4857,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 5350 10550 5450
 $Comp
-L Device:Q_NPN_BCE Q3
+L HL2_MRF101-rescue:Q_NPN_BCE-Device Q3
 U 1 1 60C710B5
 P 10850 5350
 F 0 "Q3" H 11040 5396 50  0000 L CNN
@@ -4916,7 +4916,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 4950 11050 4950
 $Comp
-L Connector_Generic:Conn_01x03 J9
+L HL2_MRF101-rescue:Conn_01x03-Connector_Generic J9
 U 1 1 61273EB5
 P 11400 7950
 F 0 "J9" H 11318 7625 50  0000 C CNN
@@ -4927,7 +4927,7 @@ F 3 "~" H 11400 7950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L HL2_MRF101-rescue:Conn_01x02-Connector_Generic J7
 U 1 1 5FD30EFE
 P 10800 7950
 F 0 "J7" H 10718 8167 50  0000 C CNN
@@ -4955,7 +4955,7 @@ Text Notes 8100 5200 0    50   ~ 0
 Wire Wire Line
 	8100 5250 8200 5250
 $Comp
-L Sensor_Temperature:LM35-NEB U5
+L HL2_MRF101-rescue:LM35-NEB-Sensor_Temperature U5
 U 1 1 5E9D9571
 P 7700 5250
 F 0 "U5" H 7370 5296 50  0000 R CNN
@@ -4992,10 +4992,10 @@ $EndComp
 Wire Wire Line
 	7700 5550 7700 5650
 $Comp
-L Device:Opamp_Dual_Generic U?
+L HL2_MRF101-rescue:Opamp_Dual_Generic-Device U2
 U 3 1 5E8DECD7
 P 10050 6850
-F 0 "U?" H 10008 6896 50  0000 L CNN
+F 0 "U2" H 10008 6896 50  0000 L CNN
 F 1 "MCP6282E/MS" H 10008 6805 50  0000 L CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 10050 6850 50  0001 C CNN
 F 3 "~" H 10050 6850 50  0001 C CNN
@@ -5014,10 +5014,10 @@ Wire Wire Line
 	11100 7750 11100 7850
 Connection ~ 11100 7850
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0102
 U 1 1 5EDC3321
 P 9950 6350
-F 0 "#PWR?" H 9950 6200 50  0001 C CNN
+F 0 "#PWR0102" H 9950 6200 50  0001 C CNN
 F 1 "+3.3V" H 9965 6523 50  0000 C CNN
 F 2 "" H 9950 6350 50  0001 C CNN
 F 3 "" H 9950 6350 50  0001 C CNN
@@ -5040,10 +5040,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 7250 9950 7150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5EF96F9F
 P 9950 7350
-F 0 "#PWR?" H 9950 7100 50  0001 C CNN
+F 0 "#PWR0110" H 9950 7100 50  0001 C CNN
 F 1 "GND" H 9955 7177 50  0000 C CNN
 F 2 "" H 9950 7350 50  0001 C CNN
 F 3 "" H 9950 7350 50  0001 C CNN
@@ -5054,10 +5054,10 @@ Wire Wire Line
 	9950 7250 9950 7350
 Connection ~ 9950 7250
 $Comp
-L Device:Opamp_Dual_Generic U?
+L HL2_MRF101-rescue:Opamp_Dual_Generic-Device U2
 U 1 1 5F0D14ED
 P 9750 5350
-F 0 "U?" H 9750 5717 50  0000 C CNN
+F 0 "U2" H 9750 5717 50  0000 C CNN
 F 1 "MCP6282E/MS" H 9750 5626 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9750 5350 50  0001 C CNN
 F 3 "~" H 9750 5350 50  0001 C CNN
@@ -5082,10 +5082,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 5250 9450 5250
 $Comp
-L Device:R_Small R?
+L HL2_MRF101-rescue:R_Small-Device R14
 U 1 1 5F209BA6
 P 8650 5250
-F 0 "R?" V 8850 5250 50  0000 C CNN
+F 0 "R14" V 8850 5250 50  0000 C CNN
 F 1 "10k" V 8750 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 5250 50  0001 C CNN
 F 3 "~" H 8650 5250 50  0001 C CNN
@@ -5099,10 +5099,10 @@ Wire Wire Line
 	8750 5250 9350 5250
 Connection ~ 9350 5250
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR049
 U 1 1 5F345641
 P 9050 4850
-F 0 "#PWR?" H 9050 4700 50  0001 C CNN
+F 0 "#PWR049" H 9050 4700 50  0001 C CNN
 F 1 "+3.3V" H 9065 5023 50  0000 C CNN
 F 2 "" H 9050 4850 50  0001 C CNN
 F 3 "" H 9050 4850 50  0001 C CNN
@@ -5110,10 +5110,10 @@ F 3 "" H 9050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L HL2_MRF101-rescue:R_Small-Device R38
 U 1 1 5F345D77
 P 9050 5700
-F 0 "R?" H 9109 5746 50  0000 L CNN
+F 0 "R38" H 9109 5746 50  0000 L CNN
 F 1 "12k" H 9109 5655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9050 5700 50  0001 C CNN
 F 3 "~" H 9050 5700 50  0001 C CNN
