@@ -189,6 +189,24 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# HL2_MRF101-rescue_C_Small-device
+#
+DEF HL2_MRF101-rescue_C_Small-device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "HL2_MRF101-rescue_C_Small-device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # HL2_MRF101-rescue_Conn_01x02-Connector_Generic
 #
 DEF HL2_MRF101-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
@@ -374,6 +392,27 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# HL2_MRF101-rescue_Ferrite_Bead_Small-device
+#
+DEF HL2_MRF101-rescue_Ferrite_Bead_Small-device FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
+F1 "HL2_MRF101-rescue_Ferrite_Bead_Small-device" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # HL2_MRF101-rescue_INA193-Amplifier_Current
 #
 DEF HL2_MRF101-rescue_INA193-Amplifier_Current U 0 5 Y Y 1 F N
@@ -539,6 +578,23 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# HL2_MRF101-rescue_R_Small-device
+#
+DEF HL2_MRF101-rescue_R_Small-device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "HL2_MRF101-rescue_R_Small-device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # HL2_MRF101-rescue_TestPoint-Connector
 #
 DEF HL2_MRF101-rescue_TestPoint-Connector TP 0 30 N N 1 F N
@@ -599,62 +655,6 @@ X I6 6 -400 -300 100 R 50 50 1 1 I
 X I7 7 -400 -400 100 R 50 50 1 1 I
 X GND 8 0 -600 100 U 50 50 1 1 W
 X COM 9 400 400 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_C_Small
-#
-DEF device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_Ferrite_Bead_Small
-#
-DEF device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
-F0 "FB" 75 50 50 H V L CNN
-F1 "device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Inductor_*
- L_*
- *Ferrite*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -50 0 -31 N
-P 2 0 1 0 0 35 0 51 N
-P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
-X ~ 1 0 100 50 D 50 50 1 1 P
-X ~ 2 0 -100 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_R_Small
-#
-DEF device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "device_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
