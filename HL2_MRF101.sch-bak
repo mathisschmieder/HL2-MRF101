@@ -1248,7 +1248,7 @@ L HL2_MRF101-rescue:R_Small-Device R10
 U 1 1 5E396FC7
 P 12400 8200
 F 0 "R10" V 12204 8200 50  0000 C CNN
-F 1 "56k" V 12295 8200 50  0000 C CNN
+F 1 "100k" V 12295 8200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 12400 8200 50  0001 C CNN
 F 3 "~" H 12400 8200 50  0001 C CNN
 	1    12400 8200
@@ -1259,7 +1259,7 @@ L HL2_MRF101-rescue:R_Small-Device R11
 U 1 1 5E397ED8
 P 12600 8400
 F 0 "R11" H 12541 8354 50  0000 R CNN
-F 1 "100k" H 12541 8445 50  0000 R CNN
+F 1 "56k" H 12541 8445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 12600 8400 50  0001 C CNN
 F 3 "~" H 12600 8400 50  0001 C CNN
 	1    12600 8400
@@ -1350,7 +1350,7 @@ L HL2_MRF101-rescue:R_Small-Device R5
 U 1 1 5E3ECAE3
 P 9350 8200
 F 0 "R5" V 9154 8200 50  0000 C CNN
-F 1 "56k" V 9245 8200 50  0000 C CNN
+F 1 "100k" V 9245 8200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9350 8200 50  0001 C CNN
 F 3 "~" H 9350 8200 50  0001 C CNN
 	1    9350 8200
@@ -1361,7 +1361,7 @@ L HL2_MRF101-rescue:R_Small-Device R4
 U 1 1 5E3ECAED
 P 9150 8400
 F 0 "R4" H 9091 8354 50  0000 R CNN
-F 1 "100k" H 9091 8445 50  0000 R CNN
+F 1 "56k" H 9091 8445 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9150 8400 50  0001 C CNN
 F 3 "~" H 9150 8400 50  0001 C CNN
 	1    9150 8400
@@ -4486,7 +4486,7 @@ L hermeslite:MAX11613 U2
 U 1 1 605E1C29
 P 14700 1600
 F 0 "U2" H 14700 1187 50  0000 C CNN
-F 1 "MAX11613" H 14700 1278 49  0000 C CNN
+F 1 "MAX11645" H 14700 1278 49  0000 C CNN
 F 2 "n2adr:MAX11613" H 14700 1125 50  0001 C CNN
 F 3 "DOCUMENTATION" H 14700 1300 50  0001 C CNN
 	1    14700 1600
@@ -4827,7 +4827,7 @@ Wire Wire Line
 	14000 3600 14000 2750
 Connection ~ 14000 3600
 $Comp
-L device:Ferrite_Bead_Small FB10
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB10
 U 1 1 5E39790B
 P 5950 1600
 F 0 "FB10" V 5713 1600 50  0000 C CNN
@@ -4840,7 +4840,7 @@ $EndComp
 Wire Wire Line
 	6050 1600 6150 1600
 $Comp
-L device:Ferrite_Bead_Small FB12
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB12
 U 1 1 5E4400FC
 P 5950 2900
 F 0 "FB12" V 5713 2900 50  0000 C CNN
@@ -4853,7 +4853,7 @@ $EndComp
 Wire Wire Line
 	6150 2900 6050 2900
 $Comp
-L device:Ferrite_Bead_Small FB14
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB14
 U 1 1 5E4E8E6D
 P 5950 4200
 F 0 "FB14" V 5713 4200 50  0000 C CNN
@@ -4866,7 +4866,7 @@ $EndComp
 Wire Wire Line
 	6050 4200 6150 4200
 $Comp
-L device:Ferrite_Bead_Small FB16
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB16
 U 1 1 5E5925AB
 P 5950 5500
 F 0 "FB16" V 5713 5500 50  0000 C CNN
@@ -4881,7 +4881,7 @@ Band4
 Wire Wire Line
 	6150 5500 6050 5500
 $Comp
-L device:Ferrite_Bead_Small FB18
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB18
 U 1 1 5E63C014
 P 5950 6800
 F 0 "FB18" V 5713 6800 50  0000 C CNN
@@ -5190,7 +5190,7 @@ Wire Wire Line
 	5450 6700 6550 6700
 Connection ~ 5450 6700
 $Comp
-L device:Ferrite_Bead_Small FB17
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB17
 U 1 1 5E9A3A71
 P 1000 6800
 F 0 "FB17" V 763 6800 50  0000 C CNN
@@ -5206,7 +5206,7 @@ Connection ~ 1350 6800
 Wire Wire Line
 	800  6800 900  6800
 $Comp
-L device:Ferrite_Bead_Small FB15
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB15
 U 1 1 5EAFA782
 P 1000 5500
 F 0 "FB15" V 763 5500 50  0000 C CNN
@@ -5222,7 +5222,7 @@ Connection ~ 1350 5500
 Wire Wire Line
 	800  5500 900  5500
 $Comp
-L device:Ferrite_Bead_Small FB13
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB13
 U 1 1 5ECFC9ED
 P 1000 4200
 F 0 "FB13" V 763 4200 50  0000 C CNN
@@ -5238,7 +5238,7 @@ Connection ~ 1350 4200
 Wire Wire Line
 	800  4200 900  4200
 $Comp
-L device:Ferrite_Bead_Small FB11
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB11
 U 1 1 5EE55DAE
 P 1000 2900
 F 0 "FB11" V 763 2900 50  0000 C CNN
@@ -5254,7 +5254,7 @@ Connection ~ 1350 2900
 Wire Wire Line
 	800  2900 900  2900
 $Comp
-L device:Ferrite_Bead_Small FB9
+L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB9
 U 1 1 5F107944
 P 1000 1600
 F 0 "FB9" V 763 1600 50  0000 C CNN
@@ -5272,7 +5272,7 @@ Wire Wire Line
 Wire Wire Line
 	900  9950 2950 9950
 $Comp
-L device:R_Small R36
+L HL2_MRF101-rescue:R_Small-device R36
 U 1 1 5F471469
 P 1950 10350
 F 0 "R36" V 1754 10350 50  0000 C CNN
@@ -5283,7 +5283,7 @@ F 3 "~" H 1950 10350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R38
+L HL2_MRF101-rescue:R_Small-device R38
 U 1 1 5F4733D9
 P 2150 10550
 F 0 "R38" H 2091 10504 50  0000 R CNN
@@ -5294,7 +5294,7 @@ F 3 "~" H 2150 10550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R37
+L HL2_MRF101-rescue:R_Small-device R37
 U 1 1 5F47390A
 P 1750 10550
 F 0 "R37" H 1692 10504 50  0000 R CNN
@@ -5379,7 +5379,7 @@ RFL_DET
 Text GLabel 1000 9050 2    50   Input ~ 0
 FWD_DET
 $Comp
-L transistors:DTC144E Q4
+L HL2_MRF101-rescue:DTC144E-transistors Q4
 U 1 1 5FE35199
 P 9550 10400
 F 0 "Q4" H 9738 10446 50  0000 L CNN
@@ -5401,7 +5401,7 @@ F 3 "" H 9650 10800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:Q_PMOS_GSD Q3
+L HL2_MRF101-rescue:Q_PMOS_GSD-device Q3
 U 1 1 5FF9F9AC
 P 10450 10100
 F 0 "Q3" H 10654 10054 50  0000 L CNN
@@ -5427,7 +5427,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 1500 8450 1400
 $Comp
-L device:C_Small C85
+L HL2_MRF101-rescue:C_Small-device C85
 U 1 1 604A1A52
 P 10550 10600
 F 0 "C85" H 10459 10554 50  0000 R CNN
@@ -5466,7 +5466,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 10100 10250 10100
 $Comp
-L device:C_Small C84
+L HL2_MRF101-rescue:C_Small-device C84
 U 1 1 60D3909C
 P 10150 10400
 F 0 "C84" H 10059 10354 50  0000 R CNN
@@ -5489,7 +5489,7 @@ F 3 "" H 10150 10800 50  0001 C CNN
 $EndComp
 Connection ~ 10150 10100
 $Comp
-L device:R_Small R17
+L HL2_MRF101-rescue:R_Small-device R17
 U 1 1 60EABC72
 P 9950 10100
 F 0 "R17" V 9754 10100 50  0000 C CNN
@@ -5512,7 +5512,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 10500 10150 10800
 $Comp
-L device:R_Small R16
+L HL2_MRF101-rescue:R_Small-device R16
 U 1 1 616A8DF0
 P 10350 9800
 F 0 "R16" V 10154 9800 50  0000 C CNN
@@ -5523,7 +5523,7 @@ F 3 "~" H 10350 9800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L diode:1N4148W D6
+L HL2_MRF101-rescue:1N4148W-diode D6
 U 1 1 618D1626
 P 10850 10600
 F 0 "D6" V 10804 10680 50  0000 L CNN
@@ -5569,7 +5569,7 @@ Connection ~ 10850 10400
 Wire Wire Line
 	9650 10100 9850 10100
 $Comp
-L conn:Conn_01x06 J10
+L HL2_MRF101-rescue:Conn_01x06-conn J10
 U 1 1 62688D8F
 P 8400 10400
 F 0 "J10" H 8318 10817 50  0000 C CNN
@@ -5617,10 +5617,10 @@ Connection ~ 1750 10350
 Wire Wire Line
 	1750 10350 1850 10350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR061
 U 1 1 63E68A3C
 P 11050 4850
-F 0 "#PWR?" H 11050 4600 50  0001 C CNN
+F 0 "#PWR061" H 11050 4600 50  0001 C CNN
 F 1 "GND" H 11055 4677 50  0000 C CNN
 F 2 "" H 11050 4850 50  0001 C CNN
 F 3 "" H 11050 4850 50  0001 C CNN
@@ -5628,12 +5628,12 @@ F 3 "" H 11050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HL2_MRF101-rescue:R_Small-Device R?
+L HL2_MRF101-rescue:R_Small-Device R39
 U 1 1 5E3E3EE6
 P 11150 3950
-F 0 "R?" V 10954 3950 50  0000 C CNN
+F 0 "R39" V 10954 3950 50  0000 C CNN
 F 1 "5k6" V 11045 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" H 11150 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 11150 3950 50  0001 C CNN
 F 3 "~" H 11150 3950 50  0001 C CNN
 	1    11150 3950
 	0    1    1    0   
