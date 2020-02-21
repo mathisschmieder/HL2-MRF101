@@ -4152,8 +4152,6 @@ F 3 "" H 14450 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14550 2850 14450 2850
-Wire Wire Line
-	14550 2750 14300 2750
 $Comp
 L HL2_MRF101-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 63DAB1DA
@@ -4570,7 +4568,7 @@ F 3 "~" H 13700 1950 50  0001 C CNN
 	1    13700 1950
 	1    0    0    1   
 $EndComp
-Text GLabel 13600 1650 0    50   Input ~ 0
+Text GLabel 14100 1750 0    50   Input ~ 0
 Vipa
 $Comp
 L HL2_MRF101-rescue:C_Small-Device C80
@@ -4583,7 +4581,7 @@ F 3 "~" H 14200 1950 50  0001 C CNN
 	1    14200 1950
 	1    0    0    1   
 $EndComp
-Text GLabel 14100 1750 0    50   Input ~ 0
+Text GLabel 13600 1650 0    50   Input ~ 0
 Vtemp
 Wire Wire Line
 	14100 1750 14200 1750
@@ -5638,17 +5636,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 4050 10350 4050
 $Comp
-L Device:Fuse_Small F?
-U 1 1 5E4932D6
-P 14200 2750
-F 0 "F?" H 14200 2565 50  0000 C CNN
-F 1 "Fuse_Small" H 14200 2656 50  0000 C CNN
-F 2 "" H 14200 2750 50  0001 C CNN
-F 3 "~" H 14200 2750 50  0001 C CNN
-	1    14200 2750
-	-1   0    0    1   
-$EndComp
-$Comp
 L HL2_MRF101-rescue:L_Small-Device L14
 U 1 1 63DACD97
 P 14000 3050
@@ -5660,10 +5647,10 @@ F 3 "~" H 14000 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	14100 2750 14000 2750
-Wire Wire Line
 	14000 2750 14000 2950
 Wire Wire Line
 	14000 3150 14000 3600
 Connection ~ 14000 3600
+Wire Wire Line
+	14000 2750 14550 2750
 $EndSCHEMATC

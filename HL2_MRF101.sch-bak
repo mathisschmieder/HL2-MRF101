@@ -4152,19 +4152,6 @@ F 3 "" H 14450 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14550 2850 14450 2850
-Wire Wire Line
-	14550 2750 14300 2750
-$Comp
-L HL2_MRF101-rescue:L_Small-Device L14
-U 1 1 63DACD97
-P 14200 2750
-F 0 "L14" V 14385 2750 50  0000 C CNN
-F 1 "7427929112" V 14294 2750 50  0000 C CNN
-F 2 "n2adr:SignalCommunications-WE-PF_7427929XXX" H 14200 2750 50  0001 C CNN
-F 3 "~" H 14200 2750 50  0001 C CNN
-	1    14200 2750
-	0    1    -1   0   
-$EndComp
 $Comp
 L HL2_MRF101-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 63DAB1DA
@@ -4359,8 +4346,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 15300 3700 50  0001 C CNN
 	1    15300 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14000 2750 14100 2750
 $Comp
 L power:GND #PWR0113
 U 1 1 5E88B411
@@ -4823,9 +4808,6 @@ Connection ~ 14000 3800
 Wire Wire Line
 	14000 3950 14000 4650
 Connection ~ 14000 3950
-Wire Wire Line
-	14000 3600 14000 2750
-Connection ~ 14000 3600
 $Comp
 L HL2_MRF101-rescue:Ferrite_Bead_Small-device FB10
 U 1 1 5E39790B
@@ -5653,4 +5635,22 @@ Wire Wire Line
 	10750 6300 10750 4050
 Wire Wire Line
 	10750 4050 10350 4050
+$Comp
+L HL2_MRF101-rescue:L_Small-Device L14
+U 1 1 63DACD97
+P 14000 3050
+F 0 "L14" V 14185 3050 50  0000 C CNN
+F 1 "7427929112" V 14094 3050 50  0000 C CNN
+F 2 "n2adr:SignalCommunications-WE-PF_7427929XXX" H 14000 3050 50  0001 C CNN
+F 3 "~" H 14000 3050 50  0001 C CNN
+	1    14000 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 2750 14000 2950
+Wire Wire Line
+	14000 3150 14000 3600
+Connection ~ 14000 3600
+Wire Wire Line
+	14000 2750 14550 2750
 $EndSCHEMATC
