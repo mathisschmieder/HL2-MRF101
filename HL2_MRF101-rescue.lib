@@ -417,6 +417,24 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Fuse_Small-Device
+#
+DEF Fuse_Small-Device F 0 10 N N 1 F N
+F0 "F" 0 -60 50 H V C CNN
+F1 "Fuse_Small-Device" 0 60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+$ENDFPLIST
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # INA193-Amplifier_Current
 #
 DEF INA193-Amplifier_Current U 0 5 Y Y 1 F N
