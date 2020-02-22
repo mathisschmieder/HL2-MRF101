@@ -4568,7 +4568,7 @@ F 3 "~" H 13700 1950 50  0001 C CNN
 	1    13700 1950
 	1    0    0    1   
 $EndComp
-Text GLabel 14100 1750 0    50   Input ~ 0
+Text GLabel 13600 1650 0    50   Input ~ 0
 Vipa
 $Comp
 L HL2_MRF101-rescue:C_Small-Device C80
@@ -4581,7 +4581,7 @@ F 3 "~" H 14200 1950 50  0001 C CNN
 	1    14200 1950
 	1    0    0    1   
 $EndComp
-Text GLabel 13600 1650 0    50   Input ~ 0
+Text GLabel 14100 1750 0    50   Input ~ 0
 Vtemp
 Wire Wire Line
 	14100 1750 14200 1750
