@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name T50)(type KiCad)(uri ${KIPRJMOD}/libs/T50.pretty)(options "")(descr ""))
-  (lib (name n2adr)(type KiCad)(uri ${KIPRJMOD}/libs/n2adr.pretty)(options "")(descr ""))
-  (lib (name hermeslite)(type KiCad)(uri ${KIPRJMOD}/libs/hermeslite.lib)(options "")(descr ""))
-)
